@@ -519,3 +519,24 @@ form { display: flex; flex-direction: column; gap: 1.3rem; }
 .info-row:last-child { border-bottom: none; }
 .info-row .k { color: var(--text-dim); }
 .info-row .v { color: var(--text); font-weight: 500; text-align: right; }
+.btn-fill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: var(--accent);
+  padding: 0.9rem 1.8rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.btn-fill:hover {
+  background: #B01F1F;
+  transform: translateY(-1px);
+}
+.btn-fill span { transition: transform 0.15s ease; display: inline-block; }
+.btn-fill:hover span { transform: translateX(3px); }
