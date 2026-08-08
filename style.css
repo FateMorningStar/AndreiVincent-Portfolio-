@@ -490,3 +490,32 @@ form { display: flex; flex-direction: column; gap: 1.3rem; }
   justify-self: center;
   width: auto;
 }
+.info-card {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  padding: 1.75rem;
+  max-width: 360px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.06);
+}
+
+.info-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 1.2rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+.info-row:last-child { border-bottom: none; }
+.info-row .k { color: var(--text-dim); }
+.info-row .v { color: var(--text); font-weight: 500; text-align: right; }
