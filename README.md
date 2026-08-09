@@ -2,8 +2,7 @@
 
 A personal portfolio website built with plain HTML and CSS, hosted on GitHub Pages.
 
-🔗 **Live site:** https://fatemorningstar.github.io/AndreiVincent-Portfolio-/index.html
-
+🔗 **Live site:** https://fatemorningstar.github.io
 # About:
 
 This is my personal site as a BS Computer Science student — built with HTML/CSS
